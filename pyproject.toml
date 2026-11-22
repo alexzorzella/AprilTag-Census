@@ -1,0 +1,14 @@
+[project]
+name = "apriltag-census"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Alex Zorzella", email = "43708160+alexzorzella@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "imageio>=2.38.2",
+    "matplotlib>=3.11.2",
+    "moms-apriltag>=2023.1.15",
+]
