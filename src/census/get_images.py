@@ -30,7 +30,7 @@ def main():
 
         for i in range(586):
             tg = TagGenerator2(FAMILY)
-            tag = tg.generate(i)
+            tag = tg.generate(i, 16)
 
             tag_name = f"{FAMILY}_{i}"
 
